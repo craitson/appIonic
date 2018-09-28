@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Lista de Professores</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item-group>
+    <ion-item *ngFor="let user of data" (click)="showDetails(user)">{{user.sobrenome}}, {{user.nome}}</ion-item>
+    
+  </ion-item-group>
+
+</ion-content>

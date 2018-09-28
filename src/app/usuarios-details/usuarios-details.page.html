@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Detalhes do Usuario</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title text-center>{{usuario.nome}} {{usuario.sobrenome}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content text-justify>
+      {{usuario.curriculo}}
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
